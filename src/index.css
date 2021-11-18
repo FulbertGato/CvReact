@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Merriweather:wght@300&display=swap');
 
 body {
-    background-image: linear-gradient(to right bottom, #f28900, #f28900);
+    /* background-image: linear-gradient(to right bottom, #f28900, #f28900); */
+    background-image:url(assets/twitter-min.jpg);
     background-attachment: fixed;
     color: #354538;
     font-family: sans-serif;
@@ -9,11 +10,11 @@ body {
 }
 
 ::-webkit-scrollbar {
-    width: 10px;
+    width: 5px;
 }
 
 ::-webkit-scrollbar-thumb {
-    background-image: linear-gradient(to right bottom, #f28900, #0575E6);
+    background-image: linear-gradient(to right bottom, #f3ebff, #f3ebff);
 
 }
 
@@ -40,7 +41,7 @@ a:hover {
 
 
 .app__main-content {
-    background-color: #fff;
+    background-color: #f3ebff;
     border-radius: 20px;
     padding: 25px 15px;
     box-shadow: 0 0 10px black;
@@ -48,7 +49,7 @@ a:hover {
 
 /* sidebar */
 .sidebar {
-    background-color: #fff;
+    background-color: #f3ebff;
     height: 100%;
     border-radius: 20px;
     padding: 25px 15px;
@@ -87,12 +88,12 @@ a:hover {
 }
 
 .sidebar__title {
-    background-color: #f1f1f1;
+    background-color: #fff;
     border-radius: 30px;
 }
 
 .sidebar__contact {
-    background-color: #dbdddf;
+    background-color: #f3ebff;
     padding: 2px 0;
     margin: 20px -15px;
 
@@ -114,7 +115,7 @@ a:hover {
 
 .sidebar__github:hover,
 .sidebar__resume:hover {
-    background-color: #f1f1f2;
+    background-color: #f3ebff;
     color: #000;
 }
 
@@ -156,7 +157,7 @@ a:hover {
 
 /* skill-card */
 .skill-card {
-    background-color: #fff;
+    background-color: #d5bbfc;
     margin: 10px;
     padding: 10px;
     display: flex;
@@ -170,14 +171,16 @@ a:hover {
 }
 
 .skill-card-body {
+    background-color: #d5bbfc;
     margin-left: 15px;
 
 }
 
 .skill_card__content {
+    
     margin: 0;
     font-size: 0.9rem;
-    color: #6e7e91;
+    color: #f3ebff;
 }
 
 /* resume */
@@ -214,9 +217,9 @@ a:hover {
 /* bar */
 .bar {
     width: 90%;
-    background-color: #f1f2f3;
-    border-radius: 20px;
-    margin-bottom: 12px;
+    background-color: #d5bbfc;
+    border-radius: 10px;
+    margin-bottom: 10px;
 
 }
 

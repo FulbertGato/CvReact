@@ -45,17 +45,17 @@ const Sidebar = () => {
             </a>
             <figure className="sidebar__social-icons my-2">
                 <a href="!#"><img src={facebook} alt="facebook" className="sidebar__icon mr-3" /></a>
-                <a href="!#"><img src={instagram} alt="instagram" className="sidebar__icon" /></a>
+                <a href="https://instagram.com/gatojunior.co/"><img src={instagram} alt="instagram" className="sidebar__icon" /></a>
             </figure>
             <div className="sidebar__contact">
                 <div className="sidebar__item sidebar__github">
-                    <a href="!#"><img src={github} alt="github" className="sidebar__icon mr-3" />github</a>
+                    <a href="https://github.com/FulbertGato/" target="_blank" className="sidebar__"><img src={github} alt="github" className="sidebar__icon mr-3" />github</a>
                 </div>
                 <div className="sidebar__location">
                     <img src={pin} alt="location" className="sidebar__icon mr-3" />
                     Dakar, Sénégal</div>
                 <div className="sidebar__item">fulbertgatojunior@gmail.com</div>
-                <div className="sidebar__item">00 221 77 872 62 29 </div>
+                
             </div>
             <div className="sidebar__item sidebar__email" onClick={handleEmailMe}>Me contacter !</div>
         </motion.div>
