@@ -50,8 +50,12 @@ const Projects = () => {
 
 
                 }>All</div>
-                <div className={active === 'wordpress' && 'projects__navbar-active'} onClick={() => handleFilterCategory('wordpress')}>Wordpress</div>
-                <div className={active === 'woocommerce' && 'projects__navbar-active'} onClick={() => handleFilterCategory('woocommerce')}>Woocommerce</div>
+                <div className={active === 'wordpress' && 'projects__navbar-active'} onClick={() => handleFilterCategory('wordpress')}>WORDPRESS</div>
+{/*                 <div className={active === 'laravel' && 'projects__navbar-active'} onClick={() => handleFilterCategory('laravel')}>LARAVEL</div>
+                <div className={active === 'symfony' && 'projects__navbar-active'} onClick={() => handleFilterCategory('symfony')}>SYMFONY</div>
+                <div className={active === 'angular' && 'projects__navbar-active'} onClick={() => handleFilterCategory('angular')}>ANGULAR</div> */}
+                <div className={active === 'react' && 'projects__navbar-active'} onClick={() => handleFilterCategory('react')}>REACT</div>
+{/*                 <div className={active === 'java' && 'projects__navbar-active'} onClick={() => handleFilterCategory('java')}>JAVA</div> */}
             </div>
 
             <div className="row">

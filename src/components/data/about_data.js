@@ -1,17 +1,24 @@
 import React from 'react';
 
-import seo from '../../assets/icons/seo.svg'
+import frontend from '../../assets/icons/frontend.svg'
+import backend from '../../assets/icons/backend.svg'
 import settings from '../../assets/icons/settings.svg'
-import game from '../../assets/icons/game-developer.svg'
-import ux from '../../assets/icons/ux.svg'
-import wordpress from '../../assets/icons/wordpress.svg'
+import game from '../../assets/icons/mobile.svg'
+import ux from '../../assets/icons/uxui.svg'
+import manage from '../../assets/icons/manage.svg'
 
 
 const skills = [
     {
-        icon: seo,
+        icon: frontend,
         title: "Frontend Development",
-        about: "Je peux créer un interface client  magnifique et évolutif en utilisant HTML, CSS,React.js et Angular"
+        about: "Je peux créer un interface client  magnifique et évolutif en utilisant HTML, CSS, React.js et Angular"
+    },
+
+    {
+        icon: backend,
+        title: "Backend Development",
+        about: " JavaScript (Express.JS , Node.js), Php (Symfony, Laravel), Python (Django), Java "
     },
     {
         icon: settings,
@@ -20,18 +27,18 @@ const skills = [
     },
     {
         icon: game,
-        title: "Dévéloppeur tout terrain",
-        about: "Je peux vous dévélopper vos jeux vidéo !"
+        title: "Mobile Development",
+        about: "Je suis capable de dévélopper des applications mobiles sur mésure !"
     },
     {
         icon: ux,
         title: "UI/UX designer",
-        about: "concepteur d'interface utilisateur minimaliste utilisant figma et encadreur"
+        about: "concepteur d'interface utilisateur minimaliste utilisant figma et Adobe XD"
     },
     {
-        icon: wordpress,
-        title: "Dévéloppeur FULLSTACK",
-        about: "Je peux vous créer vos site clé en main via les technologie Wordpress ou meme prestashop et autres "
+        icon: manage,
+        title: "Projet managment",
+        about: "Mes compétences me permettent de gérer vos projects de la phase analyse en passant par la conception jusqu'en mise en production"
     },
 ]
 

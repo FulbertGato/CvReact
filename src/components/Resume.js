@@ -43,9 +43,9 @@ const Resume = () => {
                             ISM DIGITAL CAMPUS
                         </h5>
                         <p className="resume-card__name">
-                            Licence en Genie Logiciel Réseaux Systemes(2017-2021)
+                            Licence en Genie Logiciel Réseaux Systemes
                         </p>
-                        <p className="resume-card__details">Je poursuis actuellement ma Licence en Genie Logiciel Réseaux Systemes a ISM</p>
+                       
                     </div>
                 </div>
                 <div className="col-lg-6 resume-card" >
@@ -54,12 +54,12 @@ const Resume = () => {
                     </h4>
                     <div className="resume-card__body">
                         <h5 className="resume-card__title">
-                            WEB CONCEPTION
+                            WEB DEVELOPER
                         </h5>
                         <p className="resume-card__name">
-                             AMA K. && NUNU DESIGN BY DK 2020 - 2021
+                             Web developer  chez Agence cauris
                         </p>
-                        <p className="resume-card__details">J'ai dévéloppé la boutique en ligne de la marque AMA K et NuNu DESIGN BY DK</p>
+                       
                     </div>
                 </div>
             </div>

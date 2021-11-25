@@ -11,7 +11,7 @@ import { motion } from 'framer-motion'
 
 const Sidebar = () => {
     const handleEmailMe = () => {
-        window.open("mailto:fulbertgatojunior@gmail.com")
+        window.open("mailto:hello@gatojunio.co")
     }
     const sidebar_variant = {
         hidden: {
@@ -38,11 +38,7 @@ const Sidebar = () => {
             <img src={mightycoder} alt="avatar" className="sidebar__avatar" />
             <div className="sidebar__name">Gato<span>Junior</span> </div>
             <div className="sidebar__item sidebar__title">Web Developer</div>
-            <a href={resume} download="resume.pdf">
-                <div className="sidebar__item sidebar__resume">
-                    <img src={tie} alt="resume" className="sidebar__icon" />MON CV
-                </div>
-            </a>
+          
             <figure className="sidebar__social-icons my-2">
                 <a href="!#"><img src={facebook} alt="facebook" className="sidebar__icon mr-3" /></a>
                 <a href="https://instagram.com/gatojunior.co/"><img src={instagram} alt="instagram" className="sidebar__icon" /></a>
@@ -54,7 +50,7 @@ const Sidebar = () => {
                 <div className="sidebar__location">
                     <img src={pin} alt="location" className="sidebar__icon mr-3" />
                     Dakar, Sénégal</div>
-                <div className="sidebar__item">fulbertgatojunior@gmail.com</div>
+                <div className="sidebar__item">hello@gatojunio.co</div>
                 
             </div>
             <div className="sidebar__item sidebar__email" onClick={handleEmailMe}>Me contacter !</div>

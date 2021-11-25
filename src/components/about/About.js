@@ -1,11 +1,8 @@
 import React from 'react';
-
-
 import Skillcard from './../Skillcard';
 import { motion } from 'framer-motion'
 import skills from './../data/about_data'
 import './about.css'
-
 const About = () => {
     const about_variants = {
         hidden: {
@@ -33,10 +30,10 @@ const About = () => {
             exit="exit"
         >
             <h6 className="about__intro">
-              Titulaire de plusieur certifications et une licence en Genie logiciel et UX design j’évolue aujourd’hui dans le milieu du dévélopement web.
+            Jeune professionnel dans le web, je suis quelqu’un de sérieux, appliquer et organiser dans les projets que j’entreprends.
             </h6>
             <div className="container about__container">
-                <h6 className="about__heading">CE QUE JE PROPOSE ?</h6>
+                <h6 className="about__heading"> CE QUE JE PROPOSE ?</h6>
                 <div className="row">
                     {
                         skills.map(skill =>
